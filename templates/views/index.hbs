@@ -1,0 +1,51 @@
+  <!DOCTYPE html>
+  <html>
+ 
+ <head>
+  <title>
+     
+     Weather
+  </title>
+
+  
+  
+  <link rel="icon" href="/img/weather.png">
+ <link rel="stylesheet" href="/css/styles.css">
+
+ </script>
+ 
+ </head>
+ 
+ <body>
+     <div class = "main-content">
+  {{>header}}
+
+    <!-- creating a search form using html
+-->
+<form>
+   <input placeholder="Location">
+   <button>Search</button>
+</form>
+
+<!--  creating ids for the particular paragraph -->
+<p id= "message-1">
+
+</p>
+
+<p id="message-2">
+
+
+</p>
+<p>Use this site to get your weather information </p>
+
+     </div>
+     <!-- <<{{title}}</h1>   <!-- injecting the values from the handler bars from the app.js -->
+ 
+  {{>footer}}
+   <!-- makes sure that the script runs after everything has been executed in the body
+  
+ -->
+   <script src ="/js/app.js"></script>
+ </body>
+ 
+ </html>
