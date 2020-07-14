@@ -1,4 +1,4 @@
- console.log('client side java script file to be loaded');
+// console.log('client side java script file to be loaded');
 
   //a javascript representation will come out of this
  var weatherForm=document.querySelector('form')
